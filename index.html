@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .main-container{
+            height: 700px;
+            border: 2px solid red;
+            width: 1200px;
+            margin: 90px;
+        }
+        .upper{
+            height: 200px;
+            width: 1100px;
+            /* border: 2px solid blueviolet; */
+            margin: 20px 50px 20px 50px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+        .upper::-webkit-scrollbar {
+    display: none;
+}
+
+        .middle{
+            height: 200px;
+            width: 1100px;
+            border: 2px solid blueviolet;
+            margin: 20px 50px 20px 50px;
+        }
+        .lower{
+            height: 200px;
+            width: 1100px;
+            border: 2px solid blueviolet;
+            margin: 20px 50px 20px 50px;
+        }
+        .one{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 100px;
+            
+        }
+        .one h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .two{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 500px;
+            margin-top: -200px;
+        }
+        .two h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .three{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 900px;
+            margin-top: -200px;
+        }
+        .three h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .four{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 1300px;
+            margin-top: -200px;
+        }
+        .four h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .five{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 1700px;
+            margin-top: -200px;
+        }
+        .five h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .six{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 2100px;
+            margin-top: -200px;
+        }
+        .six h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .seven{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 2500px;
+            margin-top: -200px;
+        }
+        .seven h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .eight{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 2900px;
+            margin-top: -200px;
+        }
+        .eight h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .nine{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 3300px;
+            margin-top: -200px;
+        }
+        .nine h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .ten{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 3700px;
+            margin-top: -200px;
+        }
+        .ten h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .eleven{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 4100px;
+            margin-top: -200px;
+        }
+        .eleven h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .twelve{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 4500px;
+            margin-top: -200px;
+        }
+        .twelve h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .thirteen{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 4900px;
+            margin-top: -200px;
+        }
+        .thirteen h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .fourteen{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 5300px;
+            margin-top: -200px;
+        }
+        .fourteen h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .fifteen{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 5700px;
+            margin-top: -200px;
+        }
+        .fifteen h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .sixteen{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 6100px;
+            margin-top: -200px;
+        }
+        .sixteen h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+        .seventeen{
+            height: 190px;
+            width: 150px;
+            border: 5px solid blueviolet;
+            border-radius:  0px 25px 0px 25px;
+            margin-left: 6500px;
+            margin-top: -200px;
+        }
+        .seventeen h3{
+           margin-left:0px;
+           margin-top: 5px;
+        }
+
+    </style>
+    <div class="main-container">
+        <div class="upper">
+            <div class="one"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>1.payment</h3></center></a></div>
+            <div class="two"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>2.payment</h3></center></a></div>
+            <div class="three"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>3.payment</h3></center></a></div>
+            <div class="four"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>4.payment</h3></center></a></div>
+            <div class="five"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>5.payment</h3></center></a></div>
+            <div class="six"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>6.payment</h3></center></a></div>
+            <div class="seven"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>7.payment</h3></center></a></div>
+            <div class="eight"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>8.payment</h3></center></a></div>
+            <div class="nine"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>9.payment</h3></center></a></div>
+            <div class="ten"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>10.payment</h3></center></a></div>
+            <div class="eleven"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>11.payment</h3></center></a></div>
+            <div class="twelve"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>12.payment</h3></center></a></div>
+            <div class="thirteen"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>13.payment</h3></center></a></div>
+            <div class="fourteen"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>14.payment</h3></center></a></div>
+            <div class="fifteen"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>15.payment</h3></center></a></div>
+            <div class="sixteen"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>16.payment</h3></center></a></div>
+            <div class="seventeen"><a href=""><img style="height:150px;" src="./photos/mobile2.png" alt=""><center><h3>17.payment</h3></center></a></div>
+        </div>
+        <div class="middle"></div>
+        <div class="lower"></div>
+    </div>
+</body>
+</html>
